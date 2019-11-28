@@ -1,0 +1,18 @@
+{
+  "/api": {
+    "target": "https://localhost:4200",
+    "secure": true,
+    "pathRewrite": {
+      "^/posts": ""
+    },
+    "changeOrigin": true
+  },
+  "/api/test/isAuthenticated": {
+    "target": "https://localhost:4200",
+    "secure": true,
+    "pathRewrite": {
+      "^/gets": ""
+    },
+    "changeOrigin": true
+  }
+}

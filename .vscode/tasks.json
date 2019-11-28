@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "buildapi",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/src/DotnetAPI/base-template.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+    }]
+}
