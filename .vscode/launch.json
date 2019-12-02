@@ -10,9 +10,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "buildapi",
-            "program": "${workspaceFolder}/src/DotnetAPI/bin/Debug/netcoreapp3.0/base-template.dll",
+            "program": "${workspaceFolder}/src/API/bin/Debug/netcoreapp3.0/base-template.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/DotnetAPI/",
+            "cwd": "${workspaceFolder}/src/API/",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
@@ -37,7 +37,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
             "sourceFileMap": {
-                "/Views": "${workspaceFolder}/src/DotnetAPI/Views"
+                "/Views": "${workspaceFolder}/src/API/Views"
             }
         },
         {
@@ -45,9 +45,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/DotnetAPI/bin/Debug/netcoreapp3.0/base-template.dll",
+            "program": "${workspaceFolder}/src/API/bin/Debug/netcoreapp3.0/base-template.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/DotnetAPI/",
+            "cwd": "${workspaceFolder}/src/API/",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
@@ -68,7 +68,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Production"
             },
             "sourceFileMap": {
-                "/Views": "${workspaceFolder}/src/DotnetAPI/Views"
+                "/Views": "${workspaceFolder}/src/API/Views"
             }
         },
         {

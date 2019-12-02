@@ -6,7 +6,7 @@
         "type": "process",
         "args": [
             "build",
-            "${workspaceFolder}/src/DotnetAPI/base-template.csproj"
+            "${workspaceFolder}/src/API/base-template.csproj"
         ],
         "problemMatcher": "$msCompile"
     }]

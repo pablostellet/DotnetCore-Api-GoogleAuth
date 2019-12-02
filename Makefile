@@ -1,8 +1,8 @@
 api:
-	dotnet run -p src/DotnetAPI/base-template.csproj
+	dotnet run -p src/API/base-template.csproj
 
 clean:
-	dotnet clean src/DotnetAPI/base-template.csproj
+	dotnet clean src/API/base-template.csproj
 
 angular: 
 	npm start --prefix src/Client/Angular
