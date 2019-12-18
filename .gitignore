@@ -1,2 +1,5 @@
-src/Client/Angular/node_modules/
-src/Client/Vue/node_modules/
+/src/API/bin
+/src/API/obj
+
+/test/API.Test/bin
+/test/API.Test/obj

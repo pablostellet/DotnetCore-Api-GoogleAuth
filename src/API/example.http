@@ -1,0 +1,17 @@
+@hostname = http://localhost
+@port = 5000
+@host = {{hostname}}:{{port}}
+
+###
+
+POST {{host}}/example/authenticate
+
+{
+    "username": "test",
+    "password": "test"
+}
+
+###
+
+GET {{host}}/example
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE1NzY2MTEzMjksImV4cCI6MTU3NzIxNjEyOSwiaWF0IjoxNTc2NjExMzI5fQ.QBKVZH-4sl184XQAGS4lNpxVYMTtlGF--VR4m5GxoiA
